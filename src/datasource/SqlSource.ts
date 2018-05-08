@@ -12,12 +12,12 @@ constructor() {
 
   this.sql = mysql.createConnection({
     host: "localhost",
-    // user: "1021226_user",
-    // password: "1021226",
-    // database: "pddm01021226",
-    user: "root",
-    password: "toor",
-    database: "final_moviles",
+    user: "1021226_user",
+    password: "1021226",
+    database: "pddm01021226",
+    // user: "root",
+    // password: "toor",
+    // database: "final_moviles",
     multipleStatements: true
   });
 }
