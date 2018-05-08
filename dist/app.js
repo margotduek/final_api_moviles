@@ -14,7 +14,7 @@ var App = /** @class */ (function () {
         this.routes();
         //Init server & socket
         var port = this.normalizePort(process.env.PORT || '3000');
-        this.server = this.app.listen(port);
+        this.server = this.app.listen(3001);
         this.socket();
     }
     App.start = function () {

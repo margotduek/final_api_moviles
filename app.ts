@@ -28,8 +28,8 @@ export class App
     this.routes();
 
     //Init server & socket
-    let port = this.normalizePort(process.env.PORT || '3001');
-    this.server = this.app.listen(port);
+    let port = this.normalizePort(process.env.PORT || '3000');
+    this.server = this.app.listen(3001);
     this.socket();
   }
 
