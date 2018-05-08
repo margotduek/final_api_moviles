@@ -28,7 +28,7 @@ export class App
     this.routes();
 
     //Init server & socket
-    let port = this.normalizePort(process.env.PORT || '3000');
+    let port = this.normalizePort(process.env.PORT || '3001');
     this.server = this.app.listen(port);
     this.socket();
   }
@@ -53,7 +53,7 @@ export class App
   {
     let router: express.Router;
     router = express.Router();
-    this.app.use("/api/", Api);    
+    this.app.use("/api/", Api);
   }
 
   private socket()
